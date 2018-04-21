@@ -68,9 +68,7 @@ export default class Home extends Component {
         <h1>Scratch</h1>
         <p>A very expensive note taking app</p>
         <div>
-          <Link to="/login" className="btn btn-info btn-lg">
-            Login
-          </Link>
+          <Link to="/login" className="btn btn-info btn-lg">Login</Link>
           <Link to="/signup" className="btn btn-success btn-lg">
             Signup
           </Link>
