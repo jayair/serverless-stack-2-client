@@ -11,7 +11,7 @@
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
-  command = "REACT_APP_STAGE=production npm run build:netlify"
+  command = "REACT_APP_STAGE=prod npm run build:netlify"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
